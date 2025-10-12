@@ -35,20 +35,6 @@ function App() {
         setName('');
         setRollnumber(0);
       })
-      .catch((error) => {
-        console.error('Error adding student:', error);
-      });
-  };
-
-  const handleAttendanceChange = (studentId, attendance) => {
-    setAttendanceData((prevData) => ({
-      ...prevData,
-      [studentId]: attendance,
-    }));
-  };
-
-  // const handleUpdateAttendance = () => {
-  //   const attendanceArray = Object.entries(attendanceData).map(([studentId, attendance]) => ({
   //     studentId,
   //     attendance,
   //   }));

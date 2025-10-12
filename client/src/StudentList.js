@@ -3,7 +3,7 @@ import './StudentList.css';
 import Axios from 'axios';
 import SearchComponent from './SearchComponent';
 
-const URL = '';
+// Removed unused URL variable
 
 function StudentList({ studentList, attendanceData, handleAttendanceChange }) {
   const [searchResults, setSearchResults] = useState(studentList);

@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import StudentList from './StudentList';
 
 function ParentComponent(studentlist) {
-    // Sample student data fetched from an API
-    const [studentList, setStudentList] = useState(studentlist);
+  // Sample student data fetched from an API
+  const [studentList] = useState(studentlist);
   
 
   // Initialize attendanceData with default values

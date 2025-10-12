@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Axios from 'axios';
 import './StudentForm.css';
-const URL = '';
+// Removed unused URL variable
 
 const StudentFormPage = () => {
     const [insertStudent, setInsertStudent] = useState('');

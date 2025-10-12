@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Axios from 'axios';
 import './StudentForm.css';
 
-const URL = '';
+// Removed unused URL variable
 function AttendanceDownload() {
     
     const [result, setResult] = useState('');
       const [startDate, setStartDate] = useState('');
     const [endDate, setEndDate] = useState('');
-    const datelist = [startDate, endDate];
+  // Removed unused datelist variable
     const handleDownloadAttendance = async (e) => {
         e.preventDefault();
   await Axios.get(`/api/data-download?start=${startDate}&end=${endDate}`, { responseType: 'blob' })

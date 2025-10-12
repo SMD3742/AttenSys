@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Axios from 'axios';
 import './StudentRemoval.css'; // Import your CSS file
 
-const URL = '';
+// Removed unused URL variable
 
 const StudentRemovalForm = () => {
   const [registerNumber, setRegisterNumber] = useState('');
