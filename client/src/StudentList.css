@@ -1,0 +1,95 @@
+
+.StudentList {
+    margin-top: 24px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
+    padding: 24px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #f7f9fc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #e3eafc;
+}
+
+th {
+    padding: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #2d3e50;
+    font-size: 1.05rem;
+}
+
+tbody td {
+    padding: 14px;
+    text-align: center;
+    font-size: 1rem;
+    color: #444;
+}
+
+tbody tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+.attendance-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.attendance-container label {
+    color: #4a6fa5;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.98rem;
+    transition: color 0.2s;
+}
+
+.attendance-container label:hover {
+    color: #2d3e50;
+}
+
+.attendance-container input[type='radio'] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+input[type='text'] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #bfc9d9;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f7f9fc;
+    transition: border 0.2s;
+}
+
+input[type='text']:focus {
+    outline: none;
+    border-color: #4a6fa5;
+    box-shadow: 0 0 5px #e3eafc;
+}
+
+tr:hover {
+    background-color: #e3eafc;
+}
+
+.update-message {
+    color: #4a6fa5;
+    font-weight: 500;
+    margin-top: 12px;
+    text-align: center;
+}

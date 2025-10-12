@@ -1,0 +1,89 @@
+/* StudentRemovalForm.css */
+
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 28px 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
+}
+
+h2 {
+    text-align: center;
+    color: #2d3e50;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #2d3e50;
+    display: block;
+    font-size: 1rem;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bfc9d9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    background: #f7f9fc;
+    transition: border 0.2s;
+}
+
+input:focus {
+    border-color: #4a6fa5;
+    outline: none;
+}
+
+button {
+    background: #dc3545;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+button:hover {
+    background: #c82333;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #2d3e50;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: #f7f9fc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #e3eafc;
+    font-size: 1rem;
+}
+
+td:first-child {
+    font-weight: 500;
+    background-color: #e3eafc;
+    color: #2d3e50;
+}
