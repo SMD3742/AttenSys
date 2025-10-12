@@ -1,3 +1,10 @@
+  // Fix: Define handleAttendanceChange for StudentList
+  const handleAttendanceChange = (studentId, attendance) => {
+    setAttendanceData((prevData) => ({
+      ...prevData,
+      [studentId]: attendance,
+    }));
+  };
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Axios from 'axios';
