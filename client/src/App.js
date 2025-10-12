@@ -25,33 +25,7 @@ function App() {
       });
   }, []);
 
-  const addToList = () => {
-  Axios.post(`/api/form-insert`, { name: name, rollnumber: rollnumber })
-      .then((response) => {
-        console.log('Student added successfully');
-        // Update the student list with the new student
-        setStudentList((prevList) => [...prevList, response.data]);
-        // Reset the form inputs
-        setName('');
-        setRollnumber(0);
-      })
-  //     studentId,
-  //     attendance,
-  //   }));
-
-  //   Axios.post(`${URL}/attendance`, { attendanceData: attendanceArray })
-  //     .then(() => {
-  //       console.log('Attendance recorded successfully');
-  //     })
-  //     .catch((error) => {
-  //       console.error('Error recording attendance:', error);
-  //     });
-  // };
-  
-
-
-
-
+  // ...existing code...
   return (
 
       <div className="App">
